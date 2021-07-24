@@ -1,0 +1,47 @@
+[package]
+name = "rustros_publisher"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+#target = "src/publisher_node.rs"
+[[bin]]
+name = "camera_subscriber"
+path = "src/camera_subscriber.rs"
+[[bin]]
+name = "client_node"
+path = "src/client_node.rs"
+[[bin]]
+name = "multiple_subscribers_node"
+path = "src/multiple_subscribers_node.rs"
+[[bin]]
+name = "old_service"
+path = "src/old_service.rs"
+[[bin]]
+name = "old_client"
+path = "src/old_client.rs"
+[[bin]]
+name = "parameters"
+path = "src/parameters.rs"
+[[bin]]
+name = "publisher_latch_demo"
+path = "src/publisher_latch_demo.rs"
+[[bin]]
+name = "publisher_node"
+path = "src/publisher_node.rs"
+[[bin]]
+name = "service_node"
+path= "src/service_node.rs"
+[[bin]]
+name = "subscriber_node"
+path= "src/subscriber_node.rs"
+[[bin]]
+name = "subscriber_with_ids"
+path= "src/subscriber_with_ids.rs"
+
+[dependencies]
+rosrust = "0.9"
+rosrust_msg = "0.1"
+env_logger = "0.9.0"
+# serde_derive = "1.0.126" 
+serde = { version = "1.0", features = ["derive"] }

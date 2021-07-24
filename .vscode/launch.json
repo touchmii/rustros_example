@@ -1,0 +1,96 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "camera_subscriber Debug",
+            "program": "${workspaceFolder}/target/debug/camera_subscriber",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "client_node Debug",
+            "program": "${workspaceFolder}/target/debug/client_node",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "multiple_subscribers_node Debug",
+            "program": "${workspaceFolder}/target/debug/multiple_subscribers_node",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "old_client Debug",
+            "program": "${workspaceFolder}/target/debug/old_client",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "old_service Debug",
+            "program": "${workspaceFolder}/target/debug/old_service",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "parameters Debug",
+            "program": "${workspaceFolder}/target/debug/parameters",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "publisher_latch_demo Debug",
+            "program": "${workspaceFolder}/target/debug/publisher_latch_demo",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "service_node Debug",
+            "program": "${workspaceFolder}/target/debug/service_node",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "subscriber_with_ids_node Debug",
+            "program": "${workspaceFolder}/target/debug/subscriber_with_ids_node",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "subscriber_node Debug",
+            "program": "${workspaceFolder}/target/debug/subscriber_node",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "publisher_node Debug",
+            "program": "${workspaceFolder}/target/debug/publisher_node",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
