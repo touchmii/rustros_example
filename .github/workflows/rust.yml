@@ -20,3 +20,15 @@ jobs:
       run: cargo build --verbose
     - name: Run tests
       run: cargo test --verbose
+
+    - name: Connet frp
+      if: ${{ failure() }}
+      uses: shaowenchen/debugger-action@v1
+      timeout-minutes: 30
+      continue-on-error: true
+      with:
+        frp_server_addr: ${{ secrets.FRP_SERVER_ADDR }}
+        frp_server_port: ${{ secrets.FRP_SERVER_PORT }}
+        frp_token: ${{ secrets.FRP_TOKEN }}
+        #ssh_port: ${{ secrets.SSH_PORT }}
+        ssh_port: 26902  
